@@ -10,6 +10,7 @@ public class HelloController {
 
     @GetMapping("helloworld")
     public String helloWorld(){
-        return "hello 哈哈哈 3.0 完美自动部署";
+
+        return "hello 哈哈哈 3.0 完美自动部署 git 上多层目录构建";
     }
 }
