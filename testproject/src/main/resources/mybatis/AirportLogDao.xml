@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.youzidata.api.dao.AirportLogDao">
+	
+	<select id="selectList" resultType="AirportLog">
+		SELECT id, flno, event, create_time FROM airport_log WHERE create_time BETWEEN #{beginTime} AND #{endTime} ORDER BY create_time DESC
+	</select>
+	
+	<select id="selectById" resultType="AirportLog">
+		SELECT id, flno, event, create_time FROM airport_log WHERE id = #{id}
+	</select>
+	
+</mapper>

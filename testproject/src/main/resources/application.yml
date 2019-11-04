@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: myproject
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.0.252.236:3306/runway_test?serverTimezone=GMT%2B8&useUnicode=true&amp&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true&allowMultiQueries=true
+    username: root
+    password:
