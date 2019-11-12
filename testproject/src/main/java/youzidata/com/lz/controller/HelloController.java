@@ -12,7 +12,7 @@ public class HelloController {
     public String helloWorld(){
         // System.out.println("1");
         // System.out.println("2");
-
+        // System.out.println("test333333333333");
         return "hello 哈哈哈 3.0 完美自动部署 git 上多层目录构建  ";
     }
 }
